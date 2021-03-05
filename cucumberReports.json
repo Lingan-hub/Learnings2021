@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 466000000
+              "duration": 166000000
             }
           },
           {
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 601000000
+              "duration": 294000000
             }
           },
           {
@@ -56,7 +56,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 126000000
+              "duration": 57000000
             }
           },
           {
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1746000000
+              "duration": 711000000
             }
           },
           {
@@ -82,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 230000000
+              "duration": 102000000
             }
           },
           {
@@ -95,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5954000000
+              "duration": 3231000000
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 1000000
             }
           },
           {
@@ -117,7 +117,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           }
         ]
@@ -145,7 +145,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 460000000
+              "duration": 240000000
             }
           },
           {
@@ -158,7 +158,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 354000000
+              "duration": 240000000
             }
           },
           {
@@ -171,7 +171,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 204000000
+              "duration": 193000000
             }
           },
           {
@@ -181,8 +181,7 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "passed"
             }
           },
           {
@@ -193,7 +192,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           }
         ]
@@ -231,7 +230,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2395000000
+              "duration": 1418000000
             }
           },
           {
@@ -244,7 +243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 528000000
+              "duration": 202000000
             }
           },
           {
@@ -257,7 +256,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 832000000
+              "duration": 440000000
             }
           },
           {
@@ -270,7 +269,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 468000000
+              "duration": 167000000
             }
           },
           {
@@ -283,7 +282,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 215000000
+              "duration": 81000000
             }
           },
           {
@@ -296,7 +295,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1051000000
+              "duration": 827000000
             }
           },
           {
@@ -306,8 +305,7 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "passed"
             }
           },
           {
@@ -317,8 +315,7 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -356,7 +353,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 293000000
+              "duration": 124000000
             }
           },
           {
@@ -369,7 +366,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 331000000
+              "duration": 268000000
             }
           },
           {
@@ -382,7 +379,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 242000000
+              "duration": 98000000
             }
           },
           {
@@ -395,7 +392,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 266000000
+              "duration": 71000000
             }
           },
           {
@@ -408,7 +405,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 581000000
+              "duration": 229000000
             }
           },
           {
@@ -421,7 +418,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1607000000
+              "duration": 818000000
             }
           },
           {
@@ -434,7 +431,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 237000000
+              "duration": 94000000
             }
           },
           {
@@ -444,8 +441,7 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 4000000
+              "status": "passed"
             }
           },
           {
@@ -456,7 +452,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 2000000
             }
           }
         ]

@@ -21,7 +21,7 @@ export class PetTypes{
 
     private firstPet=element.all(by.css('tbody tr td')).first();
 
-    private table=element(by.css('.table.table-striped tbody'))
+    // private table=element(by.css('.table.table-striped tbody'))
 
 
     public async verifyTitle()
