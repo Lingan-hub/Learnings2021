@@ -1,0 +1,466 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validtating Petclinic Functionality",
+    "line": 1,
+    "id": "validtating-petclinic-functionality",
+    "tags": [],
+    "uri": "Features\\AddOwner.feature",
+    "elements": [
+      {
+        "id": "validtating-petclinic-functionality;add-new-owner-functionality-testing",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Add New Owner functionality testing",
+        "tags": [
+          {
+            "name": "@Ownervalidation",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user Navigate to Petclinic Home page and Verify HomePage Title",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user Clicks on OWNERS dropdown select Add New option from owners dropdown",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "verify Title",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "provide vaild owner details as \"Protractor\" \"Test\" \"United\" \"Kingdom\" \"977546546\"",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1746000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click on Add Owner",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "verify whether user is successfull added new owner or not",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5954000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validtating-petclinic-functionality;validate-back-button-in-new-owner-page",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Validate Back button in New Owner Page",
+        "tags": [
+          {
+            "name": "@Ownervalidation",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 20,
+            "name": "User is on Home page",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "user Clicks on OWNERS dropdown select Add New option from owners dropdown",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "click on Back button",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Validtating Petclinic Functionality",
+    "line": 1,
+    "id": "validtating-petclinic-functionality",
+    "tags": [],
+    "uri": "Features\\AddVeterinary.feature",
+    "elements": [
+      {
+        "id": "validtating-petclinic-functionality;add-new-veterinary-functionality-testing",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Add New Veterinary Functionality testing",
+        "tags": [
+          {
+            "name": "@Veterinaryvalidation",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user will Navigate to Petclinic Home page and Verify HomePage Title",
+            "match": {
+              "location": "StepDefinition\\AddVeterinary.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2395000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks on VETERINARIANS dropdown and select Add New option",
+            "match": {
+              "location": "StepDefinition\\AddVeterinary.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 528000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "provide \"Dr.Suman\" \"Babu\"",
+            "match": {
+              "location": "StepDefinition\\AddVeterinary.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "click on Type dropdown and select any option",
+            "match": {
+              "location": "StepDefinition\\AddVeterinary.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "click on save button",
+            "match": {
+              "location": "StepDefinition\\AddVeterinary.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Verify the Newly added Name in Veterinary page",
+            "match": {
+              "location": "StepDefinition\\AddVeterinary.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1051000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Pet Types",
+    "line": 1,
+    "id": "pet-types",
+    "tags": [],
+    "uri": "Features\\AddDeletePet.feature",
+    "elements": [
+      {
+        "id": "pet-types;adding-new-pet-in-pet-types-page",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Adding new pet in Pet Types page",
+        "tags": [
+          {
+            "name": "@PetTypeValidation",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User is on Pet Types page",
+            "match": {
+              "location": "StepDefinition\\AddDeletePet.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Verify page title",
+            "match": {
+              "location": "StepDefinition\\AddDeletePet.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "All the buttons in the page are enabled",
+            "match": {
+              "location": "StepDefinition\\AddDeletePet.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click on add buttons",
+            "match": {
+              "location": "StepDefinition\\AddDeletePet.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Enter the \"Dog\" and click on Save button",
+            "match": {
+              "location": "StepDefinition\\AddDeletePet.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Count the PetTypes and User should see all the PetTypes",
+            "match": {
+              "location": "StepDefinition\\AddDeletePet.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click on first delete button page and show the deleted pet Name",
+            "match": {
+              "location": "StepDefinition\\AddDeletePet.ts:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinition\\hooks.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
