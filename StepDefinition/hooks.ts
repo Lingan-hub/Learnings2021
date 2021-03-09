@@ -1,12 +1,12 @@
 import { Before, After, BeforeAll } from "cucumber";
 
 import { browser } from "protractor";
-import testData from "../TestData/Properties";
+import TestData from "../TestData/Properties";
 
 
 BeforeAll( async function () {
   
-  await browser.get(testData.appUrl);
+  await browser.get(TestData.appUrl);
   await browser.manage().window().maximize();
 
 });
