@@ -1,7 +1,7 @@
 import { Before, After, BeforeAll } from "cucumber";
 
 import { browser } from "protractor";
-import testdata from "../testdata/Properties";
+import testdata from "../TestData/Properties";
 
 
 BeforeAll( async function () {

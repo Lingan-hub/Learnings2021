@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 198000000
+              "duration": 163000000
             }
           },
           {
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 250000000
+              "duration": 258000000
             }
           },
           {
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1040000000
+              "duration": 670000000
             }
           },
           {
@@ -82,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 103000000
             }
           },
           {
@@ -95,7 +95,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2599000000
+              "duration": 2571000000
             }
           },
           {
@@ -108,7 +108,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 409000000
+              "duration": 373000000
             }
           },
           {
@@ -118,8 +118,7 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -129,8 +128,7 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "passed"
             }
           }
         ]
@@ -168,7 +166,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1374000000
+              "duration": 1183000000
             }
           },
           {
@@ -181,7 +179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 289000000
+              "duration": 222000000
             }
           },
           {
@@ -193,8 +191,9 @@
               "location": "StepDefinition\\AddVeterinary.ts:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 788000000
+              "status": "failed",
+              "duration": 279000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19042 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as sendKeys] (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as sendKeys] (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\protractor\\built\\element.js:831:22)\n    at NewVeterinary.<anonymous> (C:\\Users\\Linganagouda\\Petclinic Cucumber\\PageObjects\\NewVeterinary.ts:27:30)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\PageObjects\\NewVeterinary.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\PageObjects\\NewVeterinary.js:4:12)\n    at NewVeterinary.enterFN_LN (C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\PageObjects\\NewVeterinary.js:28:16)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\StepDefinition\\AddVeterinary.ts:30:25\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\StepDefinition\\AddVeterinary.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\StepDefinition\\AddVeterinary.js:4:12)\n    at World.<anonymous> (C:\\Users\\Linganagouda\\Petclinic Cucumber\\StepDefinition\\AddVeterinary.ts:27:77)"
             }
           },
           {
@@ -206,8 +205,7 @@
               "location": "StepDefinition\\AddVeterinary.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 353000000
+              "status": "skipped"
             }
           },
           {
@@ -219,8 +217,7 @@
               "location": "StepDefinition\\AddVeterinary.ts:42"
             },
             "result": {
-              "status": "passed",
-              "duration": 285000000
+              "status": "skipped"
             }
           },
           {
@@ -232,8 +229,7 @@
               "location": "StepDefinition\\AddVeterinary.ts:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 945000000
+              "status": "skipped"
             }
           },
           {
@@ -243,7 +239,9 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed"
+              "status": "failed",
+              "duration": 16000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19042 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
             }
           },
           {
@@ -254,7 +252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 2000000
             }
           }
         ]
@@ -291,8 +289,9 @@
               "location": "StepDefinition\\AddDeletePet.ts:11"
             },
             "result": {
-              "status": "passed",
-              "duration": 208000000
+              "status": "failed",
+              "duration": 29000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19042 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)Error\n    at ElementArrayFinder.applyAction_ (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\protractor\\built\\element.js:459:27)\n    at ElementArrayFinder.<computed> [as getText] (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\protractor\\built\\element.js:91:29)\n    at ElementFinder.<computed> [as getText] (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\protractor\\built\\element.js:831:22)\n    at Home.<anonymous> (C:\\Users\\Linganagouda\\Petclinic Cucumber\\PageObjects\\Home.ts:58:42)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\PageObjects\\Home.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\PageObjects\\Home.js:4:12)\n    at Home.navigateToPetTypesPage (C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\PageObjects\\Home.js:57:16)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\StepDefinition\\AddDeletePet.ts:13:16\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\StepDefinition\\AddDeletePet.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Linganagouda\\Petclinic Cucumber\\JSFiles\\StepDefinition\\AddDeletePet.js:4:12)\n    at World.<anonymous> (C:\\Users\\Linganagouda\\Petclinic Cucumber\\StepDefinition\\AddDeletePet.ts:11:46)"
             }
           },
           {
@@ -304,8 +303,7 @@
               "location": "StepDefinition\\AddDeletePet.ts:17"
             },
             "result": {
-              "status": "passed",
-              "duration": 287000000
+              "status": "skipped"
             }
           },
           {
@@ -317,8 +315,7 @@
               "location": "StepDefinition\\AddDeletePet.ts:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 205000000
+              "status": "skipped"
             }
           },
           {
@@ -330,8 +327,7 @@
               "location": "StepDefinition\\AddDeletePet.ts:29"
             },
             "result": {
-              "status": "passed",
-              "duration": 104000000
+              "status": "skipped"
             }
           },
           {
@@ -343,8 +339,7 @@
               "location": "StepDefinition\\AddDeletePet.ts:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 319000000
+              "status": "skipped"
             }
           },
           {
@@ -356,8 +351,7 @@
               "location": "StepDefinition\\AddDeletePet.ts:42"
             },
             "result": {
-              "status": "passed",
-              "duration": 689000000
+              "status": "skipped"
             }
           },
           {
@@ -369,8 +363,7 @@
               "location": "StepDefinition\\AddDeletePet.ts:48"
             },
             "result": {
-              "status": "passed",
-              "duration": 104000000
+              "status": "skipped"
             }
           },
           {
@@ -380,7 +373,9 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed"
+              "status": "failed",
+              "duration": 4000000,
+              "error_message": "NoSuchWindowError: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=89.0.4389.82)\n  (Driver info: chromedriver=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}),platform=Windows NT 10.0.19042 x86_64)\n    at Object.checkLegacyResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\error.js:546:15)\n    at parseHttpResponse (C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:509:13)\n    at C:\\Users\\Linganagouda\\Petclinic Cucumber\\node_modules\\selenium-webdriver\\lib\\http.js:441:30\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
             }
           },
           {

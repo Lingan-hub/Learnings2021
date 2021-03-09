@@ -1,7 +1,7 @@
 import { element, by, browser, ExpectedConditions } from "protractor";
 let ec = ExpectedConditions;
 const expect = require( 'chai' ).expect;
-import testdata from "../testdata/Properties";
+import testdata from "../TestData/Properties"
 const log=require('../Logs/Log4JS').file;
 
 export class NewOwner {
