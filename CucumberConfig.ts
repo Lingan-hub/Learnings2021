@@ -12,8 +12,11 @@ export let config: Config = {
   
     
     
-   capabilities: {
-     browserName: 'firefox'
+  capabilities: {
+     browserName: 'firefox',
+     'moz:firefoxOptions': {
+      args: [ "--headless" ]
+     }
    },
  
 
