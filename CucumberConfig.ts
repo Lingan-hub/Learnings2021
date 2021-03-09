@@ -13,7 +13,7 @@ export let config: Config = {
     
     
   capabilities: {
-     browserName: 'chrome'
+     browserName: 'firefox'
    },
  
 
