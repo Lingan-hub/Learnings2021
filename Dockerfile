@@ -37,6 +37,7 @@ COPY . /app
 #change permissions for webdriver-update
 RUN chmod -R 777 ./
 
+RUN npm start
 RUN webdriver-manager update
 RUN npm test
 #WORKDIR ./Reports
