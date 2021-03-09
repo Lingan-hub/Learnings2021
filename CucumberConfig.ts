@@ -13,7 +13,7 @@ export let config: Config = {
     
     
    capabilities: {
-     browserName: 'chrome'
+     browserName: 'firefox'
    },
  
 
@@ -47,7 +47,7 @@ export let config: Config = {
         metadata: {
             "App Version":"0.3.2",
             "Test Environment": "STAGING",
-            "Browser": "Chrome  79.0.3945.88",
+           // "Browser": "Chrome  79.0.3945.88",
             "Platform": "Windows 10",
             "Parallel": "Scenarios",
             "Executed": "Remote"
