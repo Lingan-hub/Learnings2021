@@ -38,7 +38,7 @@ COPY . /app
 RUN chmod -R 777 ./
 
 RUN npm start
-RUN webdriver-manager update
+# RUN webdriver-manager update
 RUN npm test
 #WORKDIR ./Reports
 RUN ls -lh
