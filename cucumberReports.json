@@ -10,7 +10,7 @@
       {
         "id": "validtating-petclinic-functionality;add-new-owner-functionality-testing",
         "keyword": "Scenario",
-        "line": 15,
+        "line": 16,
         "name": "Add New Owner functionality testing",
         "tags": [
           {
@@ -30,7 +30,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 779000000
             }
           },
           {
@@ -43,7 +43,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 294000000
+              "duration": 1278000000
             }
           },
           {
@@ -56,7 +56,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 57000000
+              "duration": 269000000
             }
           },
           {
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 711000000
+              "duration": 3257000000
             }
           },
           {
@@ -82,7 +82,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 102000000
+              "duration": 380000000
             }
           },
           {
@@ -95,7 +95,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3231000000
+              "duration": 6737000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "also check Back button in New Owner page",
+            "match": {
+              "location": "StepDefinition\\AddOwner.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1973000000
             }
           },
           {
@@ -106,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 3000000
             }
           },
           {
@@ -117,82 +130,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "validtating-petclinic-functionality;validate-back-button-in-new-owner-page",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Validate Back button in New Owner Page",
-        "tags": [
-          {
-            "name": "@Ownervalidation",
-            "line": 17
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 20,
-            "name": "User is on Home page",
-            "match": {
-              "location": "StepDefinition\\AddOwner.ts:51"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 240000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 21,
-            "name": "user Clicks on OWNERS dropdown select Add New option from owners dropdown",
-            "match": {
-              "location": "StepDefinition\\AddOwner.ts:20"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 240000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 22,
-            "name": "click on Back button",
-            "match": {
-              "location": "StepDefinition\\AddOwner.ts:57"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 193000000
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "StepDefinition\\hooks.ts:14"
-            },
-            "result": {
-              "status": "passed"
-            }
-          },
-          {
-            "keyword": "After",
-            "hidden": true,
-            "match": {
-              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 1000000
+              "duration": 3000000
             }
           }
         ]
@@ -230,7 +168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1418000000
+              "duration": 3120000000
             }
           },
           {
@@ -243,7 +181,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202000000
+              "duration": 717000000
             }
           },
           {
@@ -256,7 +194,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 440000000
+              "duration": 936000000
             }
           },
           {
@@ -269,7 +207,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 167000000
+              "duration": 626000000
             }
           },
           {
@@ -282,7 +220,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 81000000
+              "duration": 284000000
             }
           },
           {
@@ -295,7 +233,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 827000000
+              "duration": 1374000000
             }
           },
           {
@@ -305,7 +243,8 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -315,7 +254,8 @@
               "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 2000000
             }
           }
         ]
@@ -353,7 +293,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 124000000
+              "duration": 487000000
             }
           },
           {
@@ -366,7 +306,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 268000000
+              "duration": 252000000
             }
           },
           {
@@ -379,7 +319,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 98000000
+              "duration": 367000000
             }
           },
           {
@@ -392,7 +332,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71000000
+              "duration": 237000000
             }
           },
           {
@@ -405,7 +345,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 229000000
+              "duration": 903000000
             }
           },
           {
@@ -418,7 +358,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 818000000
+              "duration": 1019000000
             }
           },
           {
@@ -431,7 +371,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 376000000
             }
           },
           {
@@ -441,7 +381,8 @@
               "location": "StepDefinition\\hooks.ts:14"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -452,7 +393,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           }
         ]

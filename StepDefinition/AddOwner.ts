@@ -47,14 +47,9 @@ When('user Clicks on OWNERS dropdown select Add New option from owners dropdown'
   });
 
 
+  Then('also check Back button in New Owner page', async () => {
 
-  Given('User is on Home page', async () =>{
-    await home.navigateToHomepage();
-  });
+    await home.navigateToNewOwnerPage();
+    await newOwner.backButton();
 
- 
-
-  Then('click on Back button', async () => {
-
-    await newOwner.backButton(); 
   });
