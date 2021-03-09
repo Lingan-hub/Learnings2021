@@ -2,8 +2,8 @@ import {Config} from 'protractor';
 let reporter = require('cucumber-html-reporter');
 export let config: Config = {
 
-   seleniumAddress: 'http://localhost:4444/wd/hub',
-   //directConnect: true,
+   //seleniumAddress: 'http://localhost:4444/wd/hub',
+   directConnect: true,
    SELENIUM_PROMISE_MANAGER: false,
     framework: 'custom',
   
