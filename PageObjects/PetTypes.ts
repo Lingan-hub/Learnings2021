@@ -1,6 +1,7 @@
-import { element,by, ElementFinder } from "protractor";
+import { element,by, ElementFinder, browser, ExpectedConditions } from "protractor";
 const log=require('../Logs/Log4JS').file;
 const expect=require('chai').expect;
+let ec = ExpectedConditions;
 
 export class PetTypes{
    
@@ -84,7 +85,7 @@ export class PetTypes{
         {
           let firstTD=row.get(i).$$("td");
           let firstdata:ElementFinder=firstTD.get(0);
-        //   browser.wait(ec.presenceOf(firstdata), 5000);
+          browser.wait(ec.presenceOf(firstdata), 5000);
           await firstdata.element(by.name('pettype_name')).getAttribute('value').then((title)=>{
             log.debug("PetType  ::" +title);
           

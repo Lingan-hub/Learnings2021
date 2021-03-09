@@ -13,7 +13,7 @@ exports.NewOwner = void 0;
 const protractor_1 = require("protractor");
 let ec = protractor_1.ExpectedConditions;
 const expect = require('chai').expect;
-const Properties_1 = require("../TestData/Properties");
+const Properties_1 = require("../testdata/Properties");
 const log = require('../Logs/Log4JS').file;
 class NewOwner {
     constructor() {

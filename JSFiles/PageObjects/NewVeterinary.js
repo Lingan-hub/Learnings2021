@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.NewVeterinary = void 0;
 const protractor_1 = require("protractor");
-const Properties_1 = require("../TestData/Properties");
+const Properties_1 = require("../testdata/Properties");
 const log = require('../Logs/Log4JS').file;
 const expect = require('chai').expect;
 var ec = protractor_1.ExpectedConditions;

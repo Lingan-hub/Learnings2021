@@ -5,7 +5,7 @@ import { Home } from "../PageObjects/Home";
 import { NewVeterinary } from "../PageObjects/NewVeterinary";
 let home=new Home();
 let newVeterinary=new NewVeterinary();
-import testData from "../TestData/Properties";
+
 
 let { setDefaultTimeout } = require('cucumber');
 setDefaultTimeout(50 * 1000);

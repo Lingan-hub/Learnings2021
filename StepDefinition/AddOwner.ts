@@ -2,7 +2,7 @@ import { Given, Then, When } from "cucumber";
 import { browser } from "protractor";
 import { Home } from "../PageObjects/Home";
 import { NewOwner } from "../PageObjects/NewOwner";
-import testData from "../TestData/Properties";
+
 
 
 let { setDefaultTimeout } = require('cucumber');

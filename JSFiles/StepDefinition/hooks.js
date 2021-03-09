@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const cucumber_1 = require("cucumber");
 const protractor_1 = require("protractor");
-const Properties_1 = require("../TestData/Properties");
+const Properties_1 = require("../testdata/Properties");
 cucumber_1.BeforeAll(function () {
     return __awaiter(this, void 0, void 0, function* () {
         yield protractor_1.browser.get(Properties_1.default.appUrl);
