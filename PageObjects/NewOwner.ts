@@ -1,7 +1,7 @@
 import { element, by, browser, ExpectedConditions } from "protractor";
 let ec = ExpectedConditions;
 const expect = require( 'chai' ).expect;
-import testdata from "../testdata/Properties";
+import TestData from "../TestData/Properties";
 const log=require('../Logs/Log4JS').file;
 
 export class NewOwner {
@@ -91,7 +91,7 @@ export class NewOwner {
         let ownerName = await ownerDetails.getText();
         await browser.wait( ec.elementToBeClickable( ownerDetails ), 20000, 'Element taking too long to appear in the DOM' );
          log.debug( "Owner details are :- " + ownerName );
-        await expect( testdata.userData.OwnerData.ownerDetails ).to.equal( ownerName );
+        await expect( TestData.userData.OwnerData.ownerDetails ).to.equal( ownerName );
     }
 }
 

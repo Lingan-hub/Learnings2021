@@ -1,5 +1,5 @@
 import {browser, by, element, ExpectedConditions} from 'protractor';
-import testdata from "../testdata/Properties";
+import TestData from "../TestData/Properties";
 const log=require('../Logs/Log4JS').file;
 const expect=require('chai').expect;
 var ec=ExpectedConditions;
@@ -59,7 +59,7 @@ export class NewVeterinary
         let vetName = await veternariDetails.getText();    
         let res= await vetName.substr(0,13);
         await log.debug( "Vet details are :- " + res );
-        await expect( testdata.userData.VeterinariData.vetDetails ).to.equal( res );
+        await expect( TestData.userData.VeterinariData.vetDetails ).to.equal( res );
        
     
     }
