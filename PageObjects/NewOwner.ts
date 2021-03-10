@@ -87,7 +87,7 @@ export class NewOwner {
     public async verifyOwnersEntry() {
         await browser.wait( ec.visibilityOf( this.ownerListTbl ), 20000, 'Taking too long to load' );
         let ownerDetails = await this.ownerListTbl.all( by.tagName( "tr" ) ).last();
-        await browser.actions().mouseMove( ownerDetails ).perform();
+//         await browser.actions().mouseMove( ownerDetails ).perform();
         let ownerName = await ownerDetails.getText();
         await browser.wait( ec.elementToBeClickable( ownerDetails ), 20000, 'Element taking too long to appear in the DOM' );
          log.debug( "Owner details are :- " + ownerName );
