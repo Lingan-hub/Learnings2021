@@ -9,11 +9,7 @@ pipeline {
 		stage('Initialize') {
 			steps {
 				echo 'Placeholder.'
-				sh """
-					JOB_NAME=${env.JOB_BASE_NAME}
-					
-					cp /app/Pipeline_A744377/cucumber_report.html /var/lib/jenkins/workspace/\$JOB_NAME
-				   """
+				
 			}
 		}
 		
