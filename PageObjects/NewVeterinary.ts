@@ -55,7 +55,7 @@ export class NewVeterinary
 
         await browser.wait( ec.visibilityOf( this.veterinariansTbl ), 20000, 'Taking too long to load' );
         var veternariDetails=await this.veterinariansTbl.all( by.tagName( "tr" )).last();
-        await browser.actions().mouseMove( veternariDetails ).perform();
+//         await browser.actions().mouseMove( veternariDetails ).perform();
         let vetName = await veternariDetails.getText();    
         let res= await vetName.substr(0,13);
         await log.debug( "Vet details are :- " + res );
