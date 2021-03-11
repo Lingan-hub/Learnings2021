@@ -8,6 +8,10 @@ exports.config = {
     capabilities:
     {
         browserName: 'firefox',
+        //  'args': ['--safe-mode'],
+         'moz:firefoxOptions': {
+          args: [ "--headless" ]
+      },
 
     },
 
