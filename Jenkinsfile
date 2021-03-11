@@ -4,13 +4,17 @@ pipeline {
     		def GIT_REPO_NAME = "Lingan-hub"
     		def DEPLOY_ENV = "dev"
 	}
-    	agent { dockerfile true }
+  	agent { dockerfile true }
 	stages {
 		stage('Initialize') {
 			steps {
 				echo 'Placeholder.'
 				
-							
+				sh """
+					JOB_NAME=${env.JOB_BASE_NAME}
+					rm -rf /var/lib/jenkins/workspace/\$JOB_NAME//allure-results
+					cp -R /app/allure-results/ /var/lib/jenkins/workspace/\$JOB_NAME/
+				   """				
 			}
 		}
 		
