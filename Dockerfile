@@ -6,8 +6,8 @@ RUN apk add openjdk11
 RUN java --version
 
 #install npm
-RUN apk add  --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/latest-stable/main/nodejs=14.15.4-r0
-RUN apk add  --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/latest-stable/main/npm==14.15.4-r0
+RUN apk add  --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/latest-stable/main/ nodejs=14.15.4-r0
+RUN apk add  --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/latest-stable/main/ npm==14.15.4-r0
 
 #insttall firefox
 RUN apk add --no-cache --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing firefox
@@ -23,7 +23,7 @@ ENV NPM_CONFIG_PREFIX=/home/node/.npm-global
 ENV PATH=$PATH:/home/node/.npm-global/bin
 
 COPY package.json /app/package.json
-RUN npm install -g
+RUN npm install
 RUN node --version
 COPY . /app
 RUN chmod -R 777 ./
